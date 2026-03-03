@@ -1,73 +1,113 @@
-# Welcome to your Lovable project
+# 🌿 Terarijum na Dar
 
-## Project info
+> Handcrafted plant terrariums, workshops & gifts — [terarijum-na-dar.vercel.app](https://terarijum-na-dar.vercel.app/)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+![Deploy](https://img.shields.io/badge/deployed-Vercel-black?logo=vercel)
+![Status](https://img.shields.io/badge/status-live-brightgreen)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📖 About
 
-**Use Lovable**
+**Terarijum na Dar** is a website for handcrafted plant terrariums and terrarium-making workshops. It's designed for anyone looking to gift or purchase a unique, self-sustaining ecosystem in glass.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+The site covers three main areas:
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🪴 **Terrarium Shop** — ready-made plant terrariums in various sizes, gift-packaged
+- 🎨 **Workshops** — group and private terrarium-making workshops (team building, birthdays, hen parties)
+- 🎁 **Corporate Gifts** — personalized eco-friendly gifts for business partners
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Technology | Description |
+|---|---|
+| **Framework** | Next.js / React |
+| **Hosting** | Vercel |
+| **Styling** | CSS / Tailwind CSS |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🛠️ Running Locally
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
 
-# Step 3: Install the necessary dependencies.
-npm i
+- [Node.js](https://nodejs.org/) v18+
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/terarijum-na-dar.git
+
+# Navigate to the project folder
+cd terarijum-na-dar
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📁 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+terarijum-na-dar/
+├── public/          # Static assets (images, favicon...)
+├── src/
+│   ├── components/  # React components
+│   ├── pages/       # Site pages
+│   └── styles/      # CSS styles
+├── package.json
+└── README.md
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## ✨ Features
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- ✅ Product & terrarium showcase
+- ✅ Workshop info and scheduling
+- ✅ Newsletter sign-up
+- ✅ Contact/order form
+- ✅ Fully responsive design (mobile & desktop)
+- ✅ Optimized for Vercel deployment
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📦 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+The site is automatically deployed to [Vercel](https://vercel.com/) on every push to the `main` branch.
 
-Yes, you can!
+```bash
+# Production build
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📸 Preview
+
+![Terarijum na Dar Preview](https://terarijum-na-dar.vercel.app/og-image.jpg)
+
+> *Handcrafted terrariums — tiny ecosystems that last for years.*
+
+---
+
+## 📬 Contact
+
+- 📸 Instagram: [@terarijum.na.dar](https://www.instagram.com/terarijum.na.dar/)
+- 🌐 Website: [terarijum-na-dar.vercel.app](https://terarijum-na-dar.vercel.app/)
+
+---
+
+## 📄 License
+
+This is a private project. All rights reserved © Damir Gavrić.
