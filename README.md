@@ -95,7 +95,7 @@ npm run build
 
 ## 📸 Preview
 
-![Terarijum na Dar Preview](https://terarijum-na-dar.vercel.app/og-image.jpg)
+![Terarijum na Dar Preview]([https://terarijum-na-dar.vercel.app/og-image.jpg](https://terarijum-na-dar.vercel.app/images/terrarium-5.png))
 
 > *Handcrafted terrariums — tiny ecosystems that last for years.*
 
